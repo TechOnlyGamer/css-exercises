@@ -53,15 +53,13 @@ ul {
   list-style-type: none;
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
-.trailing{
-	gap: 8px;
+.trailing, .heading{
+	gap: 16px;
 	margin: 8px 16px;
 	display: flex;
-}
-.heading {
-	gap: 8px;
-	display: flex;
-	margin: 8px 8px;;
 }
